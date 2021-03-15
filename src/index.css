@@ -7,7 +7,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  max-width: 400px;
+  margin: 30px auto;
+  text-align: center;
 }
+nav{
+  padding: 5px;
+}
+nav ul {
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.chat-bot {
+  position: relative;
+  height: 588px;;
+  background: #F4F4F4;
+  letter-spacing: 0.5px;
+  padding: 0 !important;
+}
+
